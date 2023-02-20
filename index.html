@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://images.vexels.com/media/users/3/158022/isolated/preview/469aee059acfd1e579b12b9d33683b75-grey-earth-icon-by-vexels.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solar System</title>
+    <style>
+      body {margin: 0px; transform: translateX(-64px); overflow: hidden;}
+      canvas {
+        /* background-image:url("http://i.stack.imgur.com/TTRFu.png"); */
+        background-color: black;
+      }
+      .texts {
+        display: none; 
+        position: absolute; 
+        left: 50%; 
+        transform: translate(-50%); 
+        color: white;}
+        .nav__container{
+          position: absolute;
+          top: 20px;
+          right: 0;
+          background: none;
+          color: white;
+        }
+        .btns{
+          background: none;
+          color: white;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <div class="nav__container">
+        <button
+          class="btns"
+          id = "btnRotation">
+            Stop Rotation
+        </button>
+        <button 
+          class="btns"
+          id = "btnRevolution">
+            Stop Revolution
+        </button>
+      </div>
+        <h1
+          style="
+          position: absolute;
+          top: 0;
+          left: 55%;
+          font-size: 40px;
+          transform: translate(-50%);
+          color: white;
+          opacity: 0.25;
+          "
+          id="__title__"
+          class="__title__">Orbits</h1>
+      <div id="texts" class="texts">
+        <p>Solar System</p>
+      </div>
+    </div>
+    <footer
+      id="footer"
+      class="footer"
+      style="
+      position: absolute;
+      bottom: 0;
+      color: gray;
+      left: 53%;
+      transform: translateX(-50%);
+      ">
+        Developed by Azmayen Murshid
+    </footer>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
