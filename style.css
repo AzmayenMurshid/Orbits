@@ -88,19 +88,26 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media screen and (max-width: 425px){
-  .title__container{
-    position: absolute;
-    top: 7%;
-    left: 65%;
-    transform: translate(-50%, 0);
+@media screen and (min-width: 320px){
+  .btns{
+    transform: translateX(50px)
   }
+
   .footer{
     position: absolute;
     margin-bottom: 10px;
     width: 100%;
     margin-left: 50px;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 425px){
+  .title__container{
+    position: absolute;
+    top: 7%;
+    left: 65%;
+    transform: translate(-50%, 0);
   }
 }
 
