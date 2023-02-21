@@ -1,3 +1,3 @@
 # Orbits
 
-<img src="public\demo.png" height="980" width="1720" >
+<img src="public\demo.png" height="500" width="650" >
