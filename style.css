@@ -95,10 +95,7 @@ button:focus-visible {
   }
 
   .title__container{
-    position: absolute;
-    top: 7%;
-    left: 65%;
-    transform: translate(-50%, 0);
+    display: none;
   }
 
   .footer{
