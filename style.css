@@ -90,27 +90,17 @@ button:focus-visible {
 
 @media screen and (max-width: 425px){
 
-  canvas, body{
-    height: 100%;
+  .title__container{
+    display: none;
   }
 
   .btns{
     transform: translate(10px, 20px);
   }
   .footer{
-    position: absolute;
-    margin-bottom: 10px;
-    width: 100%;
-    margin-left: 50px;
-    text-align: center;
-  }
-}
-
-@media screen and (max-width: 425px){
-
-  .title__container{
     display: none;
   }
+  
 }
 
 @media (prefers-color-scheme: light) {
