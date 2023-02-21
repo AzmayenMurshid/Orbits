@@ -94,12 +94,12 @@ button:focus-visible {
     height: 100%;
   }
 
-  .nav__container{
+  .btns{
     transform: translate(10px, 20px);
   }
   .footer{
     position: absolute;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     width: 100%;
     margin-left: 50px;
     text-align: center;
