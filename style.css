@@ -93,6 +93,13 @@ button:focus-visible {
     transform: translateX(50px)
   }
 
+  .title__container{
+    position: absolute;
+    top: 7%;
+    left: 65%;
+    transform: translate(-50%, 0);
+  }
+
   .footer{
     position: absolute;
     margin-bottom: 10px;
