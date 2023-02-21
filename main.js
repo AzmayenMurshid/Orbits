@@ -104,7 +104,7 @@ const orbits = {
     dTheta: 2 *  Math.PI / 400,
   },
   venus: {
-    r: 800,
+    r: 850,
     theta: 0,
     dTheta: 2 *  Math.PI / 750,
   },
